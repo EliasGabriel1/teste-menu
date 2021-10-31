@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../font/Helvetica-Bold.ttf");
+    font-weight: bold;
+ }
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../font/helvetica-1.otf");
+ }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+}
+
+header{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.header{
+    display: flex;
+    display: grid;
+    grid-template-columns: 88.3% 8%;
+    margin: 30px 33px 0;
+    gap: 46px;
+}
+
+.header>nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>nav>.content{
+    display: flex;
+    align-items: center;
+}
+
+.header>.sociais{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content>ul{
+    display: flex;
+}
+
+.content>ul>li>a:hover{
+    color: #00000094;
+}
+
+ul{
+    list-style: none;
+    gap:50px;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+
+footer>p{
+    text-align: center;
+    margin-bottom: 10px;
+}
