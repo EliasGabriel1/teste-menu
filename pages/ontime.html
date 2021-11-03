@@ -7,41 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../content/css/ontime.css">
     <link rel="stylesheet" href="../content/css/main.css">
+    <link rel="stylesheet" href="../content/css/menu.css">
     <link rel="shortcut icon" href="../content/Favicon.reverse verde.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Reverse - portfólio | Ontime</title>
 </head>
 
 <body>
     <header>
-        <div class="header" id="header">
+        <div class="header_mobile">
+            <a href="../index.html">
+                <figure><img width="140" src="../content/img/Logo.png" alt="logo"></figure>
+            </a>
+            <div class="menu-overlay"></div>
+            <a href="#" class="menu-open">
+                <div class="container">
+                    <input type="checkbox" id="checkbox-menu">
+
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                </div>
+            </a>
+
+            <div class="side-menu-wrapper">
+                <div class="button">
+                    <a href="#" class="menu-close">
+                        <div class="container-2">
+                            <input type="checkbox" id="checkbox-menu" checked>
+
+                            <label for="checkbox-menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="../index.html" target="_blank" rel="nofollow">inicio</a></li>
+                    <li><a href="../pages/ontime.html" target="_blank" rel="nofollow">projeto</a></li>
+                    <li><a href="#" target="_blank" rel="nofollow">sobre</a></li>
+                    <li><a href="../pages/contato.html" target="_blank" rel="nofollow">contato</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="header">
             <nav>
                 <a href="../index.html">
-                    <figure><img width="198,498" height="42" loading="lazy" src="../content/img/Logo.png" alt="logo">
-                    </figure>
+                    <figure><img width="198,498" height="42" src="../content/img/Logo.png" alt="logo"></figure>
                 </a>
                 <div class="content">
                     <ul>
                         <li><a href="../index.html">inicio</a></li>
-                        <!-- <li><a href="./ontime.html">projeto</a></li>
-                        <li><a href="">sobre</a></li> -->
+                        <li><a href="../pages/ontime.html">projeto</a></li>
+                        <li><a href="#">sobre</a></li>
                         <li><a href="../pages/contato.html">contato</a></li>
                     </ul>
+
                 </div>
             </nav>
             <div class="sociais">
                 <a target="_blank" href="https://www.instagram.com/ag_reverse/">
-                    <figure>
-                        <img loading="lazy" src="../content/img/instagram.png" alt="instagram">
-                    </figure>
+                    <figure><img src="../content/img/instagram.png" alt="instagram"></figure>
                 </a>
-                <a target="_blank"
-                    href="#">
-                    <figure>
-                        <img loading="lazy" src="../content/img/facebook.png" alt="facebook">
-                    </figure>
+                <a target="_blank" href="#">
+                    <figure><img src="../content/img/facebook.png" alt="facebook"></figure>
                 </a>
-                <a target="_blank" href="https://www.behance.net/BrunaDanieleGs?tracking_source=search_users_recommended%7Creverse">
-                    <figure><img loading="lazy" src="../content/img/behance.png" alt="behance"></figure>
+                <a target="_blank" href="#">
+                    <figure><img src="../content/img/behance.png" alt="behance"></figure>
                 </a>
             </div>
         </div>
@@ -204,6 +242,7 @@
             </p>
         </div>
     </footer>
+    <script src="../content/js/index.js"></script>
 </body>
 
 </html>
