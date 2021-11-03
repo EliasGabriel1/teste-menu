@@ -76,8 +76,112 @@ a{
     text-decoration: none;
 }
 
-
-footer>p{
+.topo{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 75px 0 ;
+}
+
+.topo>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_to_top{
+    margin-left:5px;
+}
+
+section.work_with_us{
+    background-color:#f1f1f1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container_work_between{
+    width: min-content;
+    margin-top: 85px;
+}
+
+section.work_with_us > .work_between{
+    text-align:center;
+}
+
+@media(max-width:900px) {
+    .work_between{
+        max-width:98vw;
+    }
+}
+
+
+.work_between{
+    width: max-content;
+    font-size:37px;
+}
+
+.button_orcamento{
+    text-align: center;
+    margin: 26px 0 0 0;
+}
+
+.midias-footer{
+    margin-top:59px;
+    margin-bottom: 18px;
+}
+
+.container_midias-sociais{
+    display:flex;
+    justify-content: center;
+    gap:19px;
+}
+
+.container_midias-sociais svg:hover path{
+    fill:#7c7c7c;
+}
+
+.orcamento{
+    background-color: #3f8120;
+    color: #fff;
+    border: none;
+    border-radius: 70px;
+    width: 213px;
+    height: 50px;
+    font-size: 22px;
+    cursor:pointer;
+}
+
+.orcamento:hover{
+    background-color: #fff;
+    color: #3f8120 ;
+    border: 1px solid #3f8120;
+
+}
+
+.orcamento:hover a{
+    color: #3f8120 ;
+}
+
+.orcamento a{
+    padding: 20px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #fff;
+}
+
+footer>.footer>p{
+    text-align: center;
+    margin: 15px 0 10px 0;
+    font-size:14px;
+    color:#00000085;
+}
+
+footer>.footer>p>a{
+    color:#000000ad;
+}
+
+footer>.footer>p>a:hover{
+    color: #3f8120;
 }

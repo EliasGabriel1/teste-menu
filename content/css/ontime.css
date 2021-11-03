@@ -3,7 +3,7 @@
     font-family: Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     html body p{
       font-size: 14px !important;
       margin: 0 10px;
@@ -17,7 +17,7 @@
   }
 
 h2{
-    font-size:58px;
+    font-size:50px;
 }
 
 .projeto{
@@ -87,27 +87,8 @@ h2{
     gap:15px;
 }
 
-.topo{
-    text-align: center;
-    margin: 40px 0 ;
-}
-
-.orcamento{
-    background-color: #3f8120;
-    color: #fff;
-    border: none;
-    border-radius: 70px;
-    width: 410px;
-    height: 77px;
-    font-size: 50px;
-}
-
-.orcamento a{
-    color:#fff;
-    font-weight: bold;
-}
-
-.button_orcamento{
-    text-align: center;
-    margin: 30px 0;
+@media screen and (max-width: 900px) {
+    .container-maisprojetos .content-img{
+        flex-direction: column;
+    }
 }
